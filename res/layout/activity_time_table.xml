@@ -1,0 +1,21 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="fill_parent"
+      android:background="#0c1d28"
+    android:layout_height="match_parent"
+    >
+    <HorizontalScrollView   android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<TableLayout 
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1bbcb"
+    android:paddingBottom="2dp"
+    tools:context=".TimeTableActivity" >
+
+</TableLayout>
+
+</HorizontalScrollView>
+</ScrollView>
